@@ -1,0 +1,17 @@
+#!/bin/bash
+BUILD_DIR=$1
+
+BUILD_PATH=/tmp
+
+###############
+#  TESSEDATA  #
+###############
+# mkdir -p $BUILD_DIR/vendor/share
+# tar -zxvf tessdata.tar.gz -C $BUILD_DIR/vendor/share
+
+
+# export TESSDATA_PREFIX
+echo "Building runtime environment"
+# mkdir -p $BUILD_DIR/.profile.d
+# PROFILE_D=$BUILD_DIR/.profile.d/tesseract.sh
+# echo "export TESSDATA_PREFIX=\"\$HOME/vendor/share/\";" >> $PROFILE_D
